@@ -1,0 +1,90 @@
+body {
+  background: black;
+  background: linear-gradient(180deg, black 5%, #202020 39%, #a5a5a5 50%);
+  color: #F1EEE6;
+}
+
+.header {
+  position: fixed;
+  padding-top: 20%;
+}
+
+.presentacion3d {
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.navbar-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.navbar {
+  background-color: #f7f5f5f3;
+  border-color: #ffffffe5;
+  box-sizing: 100%;
+}
+
+.nav-item {
+  text-decoration: greenyellow;
+  color: #32e61a;
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.navbar-light {
+  color: #d1c5c5 !important;
+  font-size: 1.7rem;
+}
+
+.titulo, .trabajos {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.saludo, .presentacion, .lead, .form-group, .servicio, .contacto, .clientes {
+  font-weight: 700;
+}
+
+.detalle {
+  font-weight: 300;
+}
+
+.final {
+  background-color: #000000;
+}
+
+@media screen and (min-width: 992px) {
+  h1,
+#titulo {
+    font-family: "Lato", sans-serif;
+  }
+
+  .presentacion3d {
+    height: 30vh;
+    position: align;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 768px) {
+  .texto {
+    position: absolute;
+  }
+
+  .img {
+    position: relative;
+  }
+
+  .presentacion3d {
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+  }
+}
+.detalle, .saludo, .presentacion, .lead, .form-group, .servicio, .contacto, .clientes, .titulo, .trabajos {
+  font-family: "Lato", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

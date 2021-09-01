@@ -1,0 +1,20 @@
+%tipo {
+
+    font-family: 'Lato', sans-serif;
+}
+
+
+.titulo, .trabajos {
+    @extend %tipo;
+
+}
+
+.saludo, .presentacion, .lead, .form-group, .servicio, .contacto, .clientes{
+    @extend %tipo;
+}
+
+.detalle{
+    @extend %tipo;
+
+}
+

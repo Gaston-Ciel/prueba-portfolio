@@ -1,0 +1,18 @@
+@import "mixins";
+
+@media screen and (min-width:992px) {
+
+
+    h1,
+    #titulo {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .presentacion3d {
+
+        height: 30vh;
+        @include posicion (align);
+        box-sizing: border-box;
+    }
+
+}
