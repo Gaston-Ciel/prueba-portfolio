@@ -6,9 +6,17 @@
 
 .presentacion3d {
 
-  height: 100vh;
+  display: none;
+}
+
+
+
+.presentacion3dMobile {
+
   position: relative;
-  box-sizing: border-box;
+  height: 30vh;
+  padding-top: 15px;
+  padding-bottom: 15px;
   
 
 }

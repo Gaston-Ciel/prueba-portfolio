@@ -10,9 +10,14 @@ body {
 }
 
 .presentacion3d {
-  height: 100vh;
+  display: none;
+}
+
+.presentacion3dMobile {
   position: relative;
-  box-sizing: border-box;
+  height: 30vh;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .navbar-text {
@@ -68,7 +73,7 @@ body {
     box-sizing: border-box;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 762px) {
   .texto {
     position: absolute;
   }
@@ -77,8 +82,13 @@ body {
     position: relative;
   }
 
+  .presentacion3dMobile {
+    display: none;
+  }
+
   .presentacion3d {
-    height: 100vh;
+    display: block;
+    height: 50vh;
     position: relative;
     box-sizing: border-box;
   }
